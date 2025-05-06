@@ -35,7 +35,7 @@ docker ps -a
 In Browser  http://<your-server-ip>:8081 
 successfully we can get jfrog user interface  http://54.89.153.210:8081/artifactory/    changes to http://54.147.211.184:8082/ui/ then goes to login page http://54.147.211.184:8082/ui/login/
 
-navigate to the "Repositories" section, click "Add Repository," and select "Local". Choose the desired package type (e.g., Maven, ) and configure the repository settings, including the unique key,Environment release/snapshot type, . Finally, click "Create Local Repository". 
+navigate to the "Repositories" section, click "Add Repository," and select "Local". Choose the desired package type (e.g., Maven, ) and configure the repository settings, including the unique key( as your wish, like "example-repo-local"),Environment (DEV),release/snapshot type, . Finally, click "Create Local Repository". 
 then go to Applicaton --> Artfactory --> Artifacts here automatically your repo will appear --> clock on the repo -->copy URL to file http://54.147.211.184:8082/artifactory/example-repo-local/ 
 
 Goto Target folder in instance where jar file is present there only we copy & paste this following command
